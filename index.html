@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <button id="open">
         click
     </button>
-    <div class="modal-container">
+
+    <div class="modal-container" id="modal_container">
         <div class="modal">
             <h1>pop-up</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sed rem, eligendi doloribus commodi fuga provident iure perspiciatis repudiandae expedita accusamus quo id dolores facilis veniam nobis molestias aspernatur velit!</p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio sed rem, eligendi doloribus commodi fuga provident iure perspiciatis repudiandae expedita accusamus quo id dolores facilis veniam nobis molestias aspernatur velit!
+            </p>
+          <button id="close">close me</button>
         </div>
     </div>
-    <button id="close">close me</button>
+    <script src="main.js"></script>
+        
+       
+    
 </body>
 </html>
